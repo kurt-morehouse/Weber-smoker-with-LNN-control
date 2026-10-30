@@ -1,0 +1,86 @@
+acqusision/
+├── data
+├── ble_scanner.py
+├── config.py
+├── condole_display.py
+├── main.py
+├── models.py
+├── probe_registry.py
+├── probe_service.py
+├── recorder.py
+├── requirements.py
+├── session.py
+│
+simulator/
+├── __init__.py
+├── main.py
+├── config.py
+├── models.py
+├── experiment.py
+├── physics.py
+├── calibration.py
+├── prediction.py
+├── reporting.py
+├── plotting.py
+├── experiments/
+│   └── baseline_1100w/
+│       ├── experiment.json
+│        ├── internal.csv│
+├── tests/
+│   ├── __init__.py
+│   ├── test_experiment.py
+│   ├── test_physics.py
+│   ├── test_calibration.py
+│   └── test_prediction.py
+│
+└── experiments/
+│    └── baseline_1100w/
+│       ├── experiment.json
+│      ├── internal.csv
+│         └── external.csv
+├── gui/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── main_window.py
+│   ├── acquisition_tab.py
+│   ├── sessions_tab.py
+│   ├── simulator_tab.py
+│   └── predictions_tab.py
+└── main_gui.py
+
+webber_smoker/
+├── acquisition/
+│   ├── __init__.py
+│   ├── ble_scanner.py
+│   ├── config.py
+│   ├── models.py
+│   ├── probe_registry.py
+│   ├── probe_service.py
+│   ├── recorder.py
+│   └── session.py
+│
+├── core/
+│   ├── __init__.py
+│   └── engineering_state.py
+│
+├── gui/
+│   ├── __init__.py
+│   ├── app_state.py
+│   ├── acquisition_controller.py
+│   ├── acquisition_tab.py
+│   ├── sessions_tab.py
+│   ├── simulator_tab.py
+│   ├── predictions_tab.py
+│   ├── main_window.py
+│   └── main_gui.py
+│
+└── simulator/
+    └── ...
+
+    data/
+└── sessions/
+    └── 20260826_120915/
+        ├── manifest.json
+        ├── weber_chamber.csv
+        ├── weber_exterior.csv
+        └── brisket_flat.csv

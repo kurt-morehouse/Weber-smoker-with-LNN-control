@@ -1,0 +1,7 @@
+                     heat loss
+                        ───► Ambient
+                       /
+1100 W ──► [CHAMBER] ─────► [WEBER BODY]
+               │                 │
+               │                 │
+               └── heat loss ────┴──► Ambient

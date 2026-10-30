@@ -1,0 +1,34 @@
+Physical probes
+      ↓
+EngineeringState
+      ↓
+Physics model
+      ↓
+Digital Twin
+      ↓
+LNN correction
+      ↓
+Controller
+
+
+                   GUI THREAD
+                       │
+             AcquisitionBridge
+              │               ▲
+         Start/Stop          Signals
+              │               │
+──────────────┼───────────────┼──────────────
+              │    BACKGROUND THREAD
+              ▼
+       AcquisitionService
+              │
+        asyncio event loop
+              │
+              ▼
+        BLE acquisition
+              │
+              ▼
+        SessionRecorder
+              │
+              ▼
+           disk CSV

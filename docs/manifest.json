@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "ambient_temperature_f": 78.0,
+    "weather_notes": "Warm afternoon, light wind",
+    "wind_speed_mph": 4.0
+  },
+  "experiment_id": "20260826_121500",
+  "heater": {
+    "commanded_power_percent": 100.0,
+    "commanded_power_w": 1100.0,
+    "control_mode": "manual",
+    "notes": "Heating element continuously energized",
+    "rated_power_w": 1100.0
+  },
+  "name": "1100 W Weber baseline heating test",
+  "notes": "Baseline heating experiment without food",
+  "probes": [
+    {
+      "data_file": "weber_chamber.csv",
+      "device_id": "902B6F7B-D0F4-EC70-1C01-8D7DE6A68397",
+      "friendly_name": "Weber Chamber",
+      "notes": null,
+      "role": "chamber"
+    },
+    {
+      "data_file": "weber_exterior.csv",
+      "device_id": "424F-31F7-E5C6-3C2FD749BFBE",
+      "friendly_name": "Weber Exterior",
+      "notes": null,
+      "role": "exterior"
+    }
+  ],
+  "schema_version": 1,
+  "started_at_utc": "2026-08-26T16:15:00+00:00",
+  "ended_at_utc": "2026-08-26T18:22:15+00:00",
+  "tags": [
+    "calibration",
+    "baseline",
+    "1100w"
+  ],
+  "weber": {
+    "bottom_vent_percent": 100.0,
+    "configuration": "Electric conversion",
+    "insulation": "None",
+    "notes": null,
+    "top_vent_percent": 100.0
+  }
+}

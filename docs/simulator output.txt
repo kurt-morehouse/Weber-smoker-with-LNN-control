@@ -1,0 +1,13 @@
+WEBER SMOKER THERMAL SIMULATOR V3.1
+===================================
+
+Experiment directory: experiments/baseline_1100w
+Loading experiment.json... OK
+Loading internal.csv... OK
+Loading external.csv... OK
+
+Internal samples:  xxxx
+External samples:  xxxx
+Heater power:      1100 W
+
+Running calibration...

@@ -1,0 +1,77 @@
+# ============================================
+# Weber Smoker Engineering Project
+# ============================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS generated files
+.DS_Store
+**/.DS_Store
+
+# PyCharm / IDE
+.idea/
+
+# Python build/test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment files / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# ============================================
+# Generated Weber smoker data
+# ============================================
+
+# Acquisition/session data
+data/
+gui/data/sessions/
+
+# Generated experiment artifacts
+engineering_notebook.json
+engineering_notebook.md
+engineering_report.md
+thermal_calibration.json
+raw_ble_packets.csv
+
+# ============================================
+# Code-drop archives
+# ============================================
+
+zip files/
+
+# ============================================
+# Keep simulator reference experiment data
+# ============================================
+
+# Simulator experiment CSV/JSON files are intentionally
+# NOT ignored because they are useful test/reference data.
+
+# Local probe UUID-to-label mapping (device identifiers are machine-specific)
+/probe_labels.json
+
+# Unused copied web-app bundle; the desktop app does not package this folder
+/resources/styles/css/

@@ -1,0 +1,3 @@
+bleak>=3.0
+chefiq-ble>=1.0.1
+home-assistant-bluetooth

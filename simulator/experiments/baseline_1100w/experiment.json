@@ -1,0 +1,10 @@
+{
+  "name": "Baseline Weber electric heater test - 1100 W",
+  "heater_power_w": 1100,
+  "internal_file": "internal.csv",
+  "external_file": "external.csv",
+  "ambient_temperature_f": null,
+  "internal_temperature_column": "Food Temperature",
+  "external_temperature_column": "Food Temperature",
+  "notes": "1100 W electric heating element operated continuously at 100 percent power. Internal probe measured Weber internal thermal response. External probe measured heat transfer at the exterior/top of the Weber."
+}
