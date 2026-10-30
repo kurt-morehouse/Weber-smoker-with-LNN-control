@@ -12,12 +12,10 @@ def format_temperature(
     temperature_c: float | None,
 ) -> str:
 
-    temperature_f = celsius_to_fahrenheit(
-        temperature_c
-    )
-
-    if temperature_f is None:
+    if temperature_c is None:
         return MISSING_VALUE_TEXT
+
+    temperature_f = celsius_to_fahrenheit(temperature_c)
 
     return f"{temperature_f:6.1f}°F"
 
